@@ -26,4 +26,8 @@
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
+
+  <!-- Xilinx Layers -->
+  <project name="Xilinx/meta-xilinx" path="layers/meta-xilinx" remote="github" />
+  <project name="Xilinx/meta-xilinx-tools" path="layers/meta-xilinx-tools" remote="github" revision="rel-v2018.3" />
 </manifest>
